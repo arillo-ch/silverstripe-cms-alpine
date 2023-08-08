@@ -1,0 +1,12 @@
+---
+Name: silverstripe-cms-alpine
+---
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+   - Arillo\Alpine\AlpineExtension
+
+SilverStripe\SiteConfig\SiteConfigLeftAndMain:
+  extensions:
+   - Arillo\Alpine\AlpineExtension
+
+

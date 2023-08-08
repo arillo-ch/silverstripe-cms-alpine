@@ -1,0 +1,31 @@
+{
+    "name": "arillo/silverstripe-cms-alpine",
+    "type": "silverstripe-vendormodule",
+    "description": "Makes alpinejs available in silverstripe CMS",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "silverstripe",
+        "alpinejs"
+    ],
+    "authors": [
+        {
+            "name": "Arillo Team",
+            "email": "hello@arillo.ch"
+        }
+    ],
+    "homepage": "https://github.com/arillo-ch/silverstripe-cms-alpine",
+    "support": {
+        "issues": "https://github.com/arillo-ch/silverstripe-cms-alpine/issues"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Arillo\\Alpine\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    }
+}
