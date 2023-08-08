@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+.env
+vendor
+public/assets/
+packages
+node_modules
+yarn.lock
