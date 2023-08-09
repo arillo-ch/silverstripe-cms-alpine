@@ -6,9 +6,9 @@ To instantiate you alpine components, you need to listen for the `alpine:init` e
 
 ```
 document.addEventListener('alpine:init', () => {
-  Alpine.data('yourCompnentName', {
+  Alpine.data('yourComponentName', {
     init() {
-      console.log('yourCompnentName.init');
+      console.log('yourComponentName.init');
     }
   });
 });
