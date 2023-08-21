@@ -5,12 +5,19 @@ Loads alpinejs into CMS.
 To instantiate you alpine components, you need to listen for the `alpine:init` event like this:
 
 ```
+/* global Alpine */
+
+const component = {
+  init() {
+    console.log('yourComponent.init');
+  }
+};
+
+if (typeof Alpine !== 'undefined') {
+  Alpine.data('yourComponent', component);
+}
 document.addEventListener('alpine:init', () => {
-  Alpine.data('yourComponentName', {
-    init() {
-      console.log('yourComponentName.init');
-    }
-  });
+  Alpine.data('yourComponent', component);
 });
 ```
 
