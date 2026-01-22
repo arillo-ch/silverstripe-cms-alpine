@@ -18,8 +18,8 @@
         "issues": "https://github.com/arillo-ch/silverstripe-cms-alpine/issues"
     },
     "require": {
-        "silverstripe/vendor-plugin": "^2.0 || ^3.0",
-        "silverstripe/admin": "^3.0 || ^4.0"
+        "silverstripe/vendor-plugin": "^3.0",
+        "silverstripe/admin": "^4.0"
     },
     "autoload": {
         "psr-4": {
