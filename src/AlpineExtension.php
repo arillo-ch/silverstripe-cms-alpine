@@ -13,7 +13,7 @@ class AlpineExtension extends Extension
     public function onBeforeInit()
     {
         Requirements::javascript(
-            'arillo/silverstripe-cms-alpine:client/alpinejs@3.12.3_dist_cdn.min.js',
+            'arillo/silverstripe-cms-alpine:client/alpinejs@3.15.4_dist_cdn.min.js',
             ['defer' => true]
         );
     }
