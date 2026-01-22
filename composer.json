@@ -17,7 +17,10 @@
     "support": {
         "issues": "https://github.com/arillo-ch/silverstripe-cms-alpine/issues"
     },
-    "require": {},
+    "require": {
+        "silverstripe/vendor-plugin": "^2.0 || ^3.0",
+        "silverstripe/admin": "^3.0 || ^4.0"
+    },
     "autoload": {
         "psr-4": {
             "Arillo\\Alpine\\": "src/"
@@ -27,5 +30,7 @@
         "expose": [
             "client"
         ]
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
